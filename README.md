@@ -1,6 +1,6 @@
 # notr.nvim
 
-Neovim integration for [Notr](../README.md)—browse, preview, and edit encrypted notes without leaving the editor.
+Neovim integration for [Notr](https://github.com/kimusan/notr)—browse, preview, and edit encrypted notes without leaving the editor.
 
 ## Features
 
@@ -31,8 +31,6 @@ With [lazy.nvim](https://github.com/folke/lazy.nvim):
   dependencies = { "ibhagwan/fzf-lua" },
 }
 ```
-
-> Replace `dir` above if you vendor the plugin differently.
 
 ## Usage
 
