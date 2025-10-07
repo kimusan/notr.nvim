@@ -12,7 +12,7 @@ Neovim integration for [Notr](../README.md)—browse, preview, and edit encrypte
 ## Requirements
 
 - Neovim 0.8+ (0.10 recommended for `vim.system`)
-- [`notr` CLI](https://github.com/kimsul/notr) available on `$PATH`
+- [`notr` CLI](https://github.com/kimusan/notr) available on `$PATH`
 - [`fzf-lua`](https://github.com/ibhagwan/fzf-lua)
 
 ## Installation
@@ -21,7 +21,7 @@ With [lazy.nvim](https://github.com/folke/lazy.nvim):
 
 ```lua
 {
-  dir = "~/path/to/notr/nvim/notr.nvim",
+  "kimusan/notr.nvim",
   config = function()
     require("notr").setup({
       cmd = "notr",
